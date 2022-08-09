@@ -1,0 +1,62 @@
+main {
+	text-align: left;
+	font-family:"comic sans ms";
+	
+  border-radius: 25px;
+border: 2px solid;
+  padding: 20px;
+  width: 350px;
+  height: 500px;
+  background-color: #FCEBEB;
+	color: black;
+}
+address {
+			font-weight: bold;
+			float: right;
+			background-color: #FCEBEB;
+			border-radius: 25px;
+			border: 2px solid;
+			padding: 20px;
+			width: 810px;
+			height: 500px;
+			color: black;		
+			}	
+			
+		
+
+
+
+label {
+    float: left;
+    width: 15%;
+    text-align: right;
+	
+}
+input {
+	width: 15%;
+    margin-left: 2em;
+    
+	
+	
+	
+}
+
+
+
+
+
+
+textarea {
+  
+    margin-left: 10em;
+    
+	
+}
+li a {
+    
+    color: black;
+    
+   
+    
+  
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+	
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Terms and Conditions</title>
+        <link rel="stylesheet" href="css/Training.css">
+        
+    </head>
+       
+    <body>
+		
+        <div class="div1">
+			
+			<a href="homepage.html"><img id="logo" src="PHOTOS/FFPC.png" alt="logo" ></a>
+
+			<div class="div1text">
+				
+				<h1 id="companyname"> Family Fun Play Camp </h1>
+					
+					<ul>
+						<li><a href="homepage.html">HOME</a></li>
+						<li><a href="Class Categories.html">CLASSES</a></li>
+						<li><a href="RegisterForm.html">MEMBERSHIP & FEES</a></li>
+						<li><a href="kids & family.html"> KIDS & FAMILY</a></li>
+						<li><a href="Training.html">TRAINING</a></li>
+						<li><a href="Terms and Conditions.html">TERMS AND CONDITIONS</a></li>
+						<li><a href="About_us2.html">ABOUT US</a></li>
+						<li><a href="contact_us.html">CONTACT US</a></li>
+					
+					</ul>
+
+			</div>
+				
+        </div>
+		
+		
+		<div class="div2">
+
+            <div class="div2text">
+                <h5>JOIN NOW AND SAVE 30% ON ENROLLMENT</h5>
+            </div>
+			
+            <button class="div2button" type="submit"> <a href="#signup">SIGN UP</a> </button>
+
+        </div>
+		
+		
+
+        <h1>Terms and Condition</h1>
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+
+		function checkCheckBox(x){
+			
+			if (x.agree.checked == false ){
+			alert('To continue, please make sure that you have read the Terms and Conditions document and have ticked the "I accept" checkbox before clicking Submit button.');
+				return false;
+			}
+			
+			else
+				return true;
+				
+		}
+		
+		
+	function popitup(url) {
+		newwindow=window.open(url,'name','height=200,width=150');
+		if (window.focus) {newwindow.focus()}
+		return false;
+	}
+
+		
+		</script>
+
+		<form action="/yourscript.cgi-or-your-page.html" method="POST" onsubmit="return checkCheckBox(this)">
+
+		
+		<p> These Terms and Conditions are a legally binding set of rules about the use of a website. 
+		They set out how users may use the site, and what they can and cannot do on the site. 
+		For example, if a user posts offensive or defamatory content on a website, 
+		the owner of the site will want to have Terms and Conditions to fall back on which clearly 
+		state that the owner of the site does not permit or take responsibility for that offensive 
+		content and that any liability (such as a defamation claim) should therefore sit with the user.</p> 
+		
+		<p>In addition, the owner of the site may want to have the ability to terminate the user's account - 
+		and this also will need to be explained in the Terms and Conditions.</p>
+
+		<p>These Terms and Conditions set out the rules for using a website. In addition, if the website collects any information from users, 
+		include a brief privacy policy, and Terms and Conditions for the sale of services as well.</p>
+		
+		<a href="FFPC Terms and Conditions Document.pdf" onclick="return popitup('FFPC Terms and Conditions Document.pdf')">Link to popup</a>
+
+		<p>By submitting, I agree that all info entered was done accurately & truthfully.</p>
+		
+		<p>I accept:
+			<input id="checkbox" type="checkbox" value="0" name="agree">
+			<input id="submit" type="submit" value="Submit">
+		</p>
+		</form>
+
+			
+    </body>    
+  <footer>
+	<div class="footer">
+
+					<ul id="footernav">
+						<li><a href="Class Categories.html">CLASSES</a></li>
+						<li><a href="RegisterForm.html">MEMBERSHIP & FEES</a></li>
+						<li><a href="kids & family.html"> KIDS & FAMILY</a></li>
+						<li><a href="Training.html">TRAINING</a></li>
+						<li><a href="Terms and Conditions.html">TERMS AND CONDITIONS</a></li>
+						<li><a href="About_us2.html">ABOUT US</a></li>
+						<li><a href="contact_us.html">CONTACT US</a></li>
+					
+					</ul>
+
+	</div>
+			
+</footer>
+</body>
+</html>
