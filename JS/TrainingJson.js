@@ -1,7 +1,7 @@
 
 async function populate() {
 
-  const requestURL = 'https://github.com/ryangonz1787/ryangonz1787.websites.github.io/blob/main/JS/Training.json';
+  const requestURL = 'https://raw.githubusercontent.com/ryangonz1787/ryangonz1787.websites.github.io/main/JS/Training.json';
   const request = new Request(requestURL);
 
   const response = await fetch(request);
